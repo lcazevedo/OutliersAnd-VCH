@@ -1,0 +1,6 @@
+path: ""
+fileBA10: 'ba10-18.xyz'
+num_folds: 5
+num_rounds: 10
+column_y: 'te'
+

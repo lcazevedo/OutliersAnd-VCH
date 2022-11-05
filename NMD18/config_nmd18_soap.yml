@@ -1,0 +1,149 @@
+100:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 0.00017263349150062197
+            norm: false
+        nl: 4.315837287515549e-05
+    representation:
+      ds_soap:
+        cutoff: 7
+        elems: [8, 13, 31, 49]
+        l_max: 4
+        n_max: 6
+        rbf: gto
+        sigma: 0.03125
+160:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 0.0625
+            norm: false
+        nl: 5.3947966093944364e-06
+    representation:
+      ds_soap:
+        cutoff: 9
+        elems: [8, 13, 31, 49]
+        l_max: 3
+        n_max: 3
+        rbf: gto
+        sigma: 0.08838834764831845
+250:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 64.0
+            norm: false
+        nl: 3.814697265625e-06
+    representation:
+      ds_soap:
+        cutoff: 6
+        elems: [8, 13, 31, 49]
+        l_max: 7
+        n_max: 7
+        rbf: gto
+        sigma: 0.1767766952966369
+400:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 2048.0
+            norm: false
+        nl: 7.62939453125e-06
+    representation:
+      ds_soap:
+        cutoff: 8
+        elems: [8, 13, 31, 49]
+        l_max: 6
+        n_max: 4
+        rbf: gto
+        sigma: 0.5
+650:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 0.0625
+            norm: false
+        nl: 2.6973983046972182e-06
+    representation:
+      ds_soap:
+        cutoff: 5
+        elems: [8, 13, 31, 49]
+        l_max: 6
+        n_max: 7
+        rbf: gto
+        sigma: 0.04419417382415922
+1000:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 0.015625
+            norm: false
+        nl: 3.814697265625e-06
+    representation:
+      ds_soap:
+        cutoff: 6
+        elems: [8, 13, 31, 49]
+        l_max: 4
+        n_max: 7
+        rbf: gto
+        sigma: 0.04419417382415922
+1600:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 22.627416997969522
+            norm: false
+        nl: 9.5367431640625e-07
+    representation:
+      ds_soap:
+        cutoff: 3
+        elems: [8, 13, 31, 49]
+        l_max: 5
+        n_max: 3
+        rbf: gto
+        sigma: 0.3535533905932738
+
+

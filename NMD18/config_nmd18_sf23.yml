@@ -1,0 +1,163 @@
+100:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 32.0
+            norm: false
+        nl: 6.103515625e-05
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [8, 13, 31, 49]
+        universal: [{rad_shifted: {cutoff: 2, n: 8}}, {rad_centered: {cutoff: 3, n: 6}},
+          {ang: {cutoff: 6, eta: 2.0, lambd: 1, zeta: 1}}, {ang: {cutoff: 4, eta: 0.7071067811865476,
+              lambd: -1, zeta: 1}}, {ang: {cutoff: 4, eta: 0.0001220703125, lambd: 1,
+              zeta: 2}}, null, null, {ang: {cutoff: 6, eta: 0.00017263349150062197,
+              lambd: -1, zeta: 4}}]
+160:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 256.0
+            norm: false
+        nl: 2.6973983046972182e-06
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [8, 13, 31, 49]
+        universal: [{rad_shifted: {cutoff: 5, n: 4}}, {rad_centered: {cutoff: 8, n: 4}},
+          {ang: {cutoff: 4, eta: 1.52587890625e-05, lambd: 1, zeta: 1}}, {ang: {cutoff: 2,
+              eta: 0.00390625, lambd: -1, zeta: 1}}, null, {ang: {cutoff: 5, eta: 0.00048828125,
+              lambd: -1, zeta: 2}}, null, {ang: {cutoff: 9, eta: 0.0006905339660024879,
+              lambd: -1, zeta: 4}}]
+250:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 512.0
+            norm: false
+        nl: 1.3486991523486091e-06
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [8, 13, 31, 49]
+        universal: [{rad_shifted: {cutoff: 4, n: 8}}, {rad_centered: {cutoff: 9, n: 6}},
+          {ang: {cutoff: 3, eta: 0.25, lambd: 1, zeta: 1}}, {ang: {cutoff: 2, eta: 0.5,
+              lambd: -1, zeta: 1}}, {ang: {cutoff: 3, eta: 3.0517578125e-05, lambd: 1,
+              zeta: 2}}, {ang: {cutoff: 4, eta: 1.3486991523486091e-06, lambd: -1,
+              zeta: 2}}, null, {ang: {cutoff: 7, eta: 0.25, lambd: -1, zeta: 4}}]
+400:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 1024.0
+            norm: false
+        nl: 9.5367431640625e-07
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [8, 13, 31, 49]
+        universal: [{rad_shifted: {cutoff: 2, n: 7}}, {rad_centered: {cutoff: 10,
+              n: 4}}, {ang: {cutoff: 4, eta: 0.7071067811865476, lambd: 1, zeta: 1}},
+          {ang: {cutoff: 4, eta: 0.125, lambd: -1, zeta: 1}}, {ang: {cutoff: 3, eta: 0.125,
+              lambd: 1, zeta: 2}}, {ang: {cutoff: 5, eta: 0.0006905339660024879, lambd: -1,
+              zeta: 2}}, {ang: {cutoff: 5, eta: 8.631674575031098e-05, lambd: 1, zeta: 4}},
+          {ang: {cutoff: 9, eta: 0.015625, lambd: -1, zeta: 4}}]
+650:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 90.50966799187809
+            norm: false
+        nl: 9.5367431640625e-07
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [8, 13, 31, 49]
+        universal: [{rad_shifted: {cutoff: 3, n: 7}}, {rad_centered: {cutoff: 4, n: 4}},
+          {ang: {cutoff: 5, eta: 0.08838834764831845, lambd: 1, zeta: 1}}, {ang: {
+              cutoff: 3, eta: 1.3486991523486091e-06, lambd: -1, zeta: 1}}, {ang: {
+              cutoff: 3, eta: 0.08838834764831845, lambd: 1, zeta: 2}}, null, {ang: {
+              cutoff: 2, eta: 1.3486991523486091e-06, lambd: 1, zeta: 4}}, null]
+1000:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 32.0
+            norm: false
+        nl: 9.5367431640625e-07
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [8, 13, 31, 49]
+        universal: [{rad_shifted: {cutoff: 3, n: 3}}, {rad_centered: {cutoff: 4, n: 6}},
+          {ang: {cutoff: 2, eta: 0.1767766952966369, lambd: 1, zeta: 1}}, {ang: {
+              cutoff: 4, eta: 0.005524271728019903, lambd: -1, zeta: 1}}, null, null,
+          null, {ang: {cutoff: 3, eta: 0.0006905339660024879, lambd: -1, zeta: 4}}]
+1600:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 16.0
+            norm: false
+        nl: 9.5367431640625e-07
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [8, 13, 31, 49]
+        universal: [{rad_shifted: {cutoff: 3, n: 4}}, {rad_centered: {cutoff: 4, n: 3}},
+          {ang: {cutoff: 3, eta: 0.1767766952966369, lambd: 1, zeta: 1}}, {ang: {
+              cutoff: 4, eta: 0.00017263349150062197, lambd: -1, zeta: 1}}, {ang: {
+              cutoff: 5, eta: 0.1767766952966369, lambd: 1, zeta: 2}}, {ang: {cutoff: 3,
+              eta: 1.0789593218788873e-05, lambd: -1, zeta: 2}}, {ang: {cutoff: 4,
+              eta: 0.02209708691207961, lambd: 1, zeta: 4}}, null]
+

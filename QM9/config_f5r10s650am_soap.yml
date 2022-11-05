@@ -1,0 +1,39 @@
+path: ""
+fileQM9: 'qm9_compl.pkl'
+test_ref: "Fold5_Round10_Sample650_am_soap"
+
+Fold5_Round10_Sample650_am_soap:
+  num_folds: 5
+  num_rounds: 10
+  column_y: 'U0'
+  qtd_sample_qm9: 650
+  gamma_a: 32
+  gamma_variance: 34
+  model:
+      per: mol
+      regression:
+        krr:
+          centering: false
+          kernel:
+            kernel_atomic:
+              kernelf:
+                gaussian:
+                  ls: 1.4142135623730951
+              norm: false
+          nl: 4.315837287515549e-05
+      representation:
+        composed:
+          reps: [{ds_soap: {
+                  cutoff: 2,
+                  elems: [1, 6, 7, 8, 9],
+                  l_max: 6,
+                  n_max: 6,
+                  rbf: gto,
+                  sigma: 0.25}
+                 }   
+                 ]
+
+
+
+
+      

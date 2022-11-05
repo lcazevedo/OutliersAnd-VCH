@@ -1,0 +1,43 @@
+path: ""
+fileQM9: 'qm9_compl.pkl'
+test_ref: "Fold5_Round10_Sample250_ax_sf23"
+
+Fold5_Round10_Sample250_ax_sf23:
+  num_folds: 5
+  num_rounds: 10
+  column_y: 'U0'
+  qtd_sample_qm9: 250
+  gamma_a: 120
+  gamma_variance: 34
+  model:
+      per: mol
+      regression:
+        krr:
+          centering: false
+          kernel:
+            kernel_atomic:
+              kernelf:
+                gaussian:
+                  ls: 11.313708498984761
+              norm: false
+          nl: 9.5367431640625e-07
+      representation:
+        composed:
+          reps: [{sf:
+                    {dim: null,
+                     elemental: [],
+                     elems: [1, 6, 7, 8, 9],
+                     universal: [{rad_shifted: {cutoff: 3, n: 2}},
+                                 {rad_centered: {cutoff: 2, n: 7}},
+                                 {ang: {cutoff: 7, eta: 0.5, lambd: 1, zeta: 1}}, 
+                                 {ang: {cutoff: 2, eta: 0.011048543456039806, lambd: -1, zeta: 1}}, 
+                                 {ang: {cutoff: 5, eta: 0.7071067811865476, lambd: 1, zeta: 2}}, 
+                                 null, null, null
+                                ]
+                    }
+                  }
+                 ]
+
+
+
+      

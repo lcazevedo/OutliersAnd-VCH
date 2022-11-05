@@ -1,0 +1,150 @@
+100:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_global:
+            kernelf:
+              gaussian:
+                ls: 128.0
+        nl: 9.5367431640625e-07
+    representation:
+      composed:
+        reps: [{mbtr_2: {acc: 0.001, aindexf: full, broadening: 0.0625, eindexf: full,
+              elems: [8, 13, 31, 49], flatten: true, geomf: 1/distance, norm: {none: {}},
+              num: 100, start: -0.03, stop: 0.62, weightf: {exp_-1/identity: {ls: 1.0}}}},
+          {mbtr_3: {acc: 0.001, aindexf: full, broadening: 0.009843133202303695, eindexf: full,
+              elems: [8, 13, 31, 49], flatten: true, geomf: cos_angle, norm: {l2: {
+                  scale: 1.0}}, num: 100, start: -1.05, stop: 1.05, weightf: {exp_-1/norm+norm+norm: {
+                  ls: 1.189207115002721}}}}]
+160:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_global:
+            kernelf:
+              gaussian:
+                ls: 32.0
+        nl: 0.0001220703125
+    representation:
+      composed:
+        reps: [{mbtr_2: {acc: 0.001, aindexf: full, broadening: 0.011048543456039806,
+              eindexf: full, elems: [8, 13, 31, 49], flatten: true, geomf: 1/dot,
+              norm: {l2: {scale: 1.0}}, num: 100, start: -0.02, stop: 0.37, weightf: {
+                exp_-1/identity^2: {ls: 1.0}}}}, {mbtr_3: {acc: 0.001, aindexf: full,
+              broadening: 0.0078125, eindexf: full, elems: [8, 13, 31, 49], flatten: true,
+              geomf: cos_angle, norm: {none: {}}, num: 100, start: -1.05, stop: 1.05,
+              weightf: 1/dotdotdot}}]
+250:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_global:
+            kernelf:
+              gaussian:
+                ls: 90.50966799187809
+        nl: 1.3486991523486091e-06
+    representation:
+      composed:
+        reps: [{mbtr_2: {acc: 0.001, aindexf: full, broadening: 0.02209708691207961,
+              eindexf: full, elems: [8, 13, 31, 49], flatten: true, geomf: 1/distance,
+              norm: {none: {}}, num: 100, start: -0.03, stop: 0.62, weightf: {exp_-1/identity: {
+                  ls: 1.0}}}}, {mbtr_3: {acc: 0.001, aindexf: full, broadening: 0.015625,
+              eindexf: full, elems: [8, 13, 31, 49], flatten: true, geomf: angle,
+              norm: {none: {}}, num: 100, start: -0.16, stop: 3.3, weightf: {exp_-1/norm+norm+norm: {
+                  ls: 1.0}}}}]
+400:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_global:
+            kernelf:
+              gaussian:
+                ls: 64.0
+        nl: 0.000244140625
+    representation:
+      composed:
+        reps: [{mbtr_2: {acc: 0.001, aindexf: full, broadening: 0.04419417382415922,
+              eindexf: full, elems: [8, 13, 31, 49], flatten: true, geomf: 1/dot,
+              norm: {none: {}}, num: 100, start: -0.02, stop: 0.37, weightf: {exp_-1/identity^2: {
+                  ls: 128.0}}}}, {mbtr_3: {acc: 0.001, aindexf: full, broadening: 0.015625,
+              eindexf: full, elems: [8, 13, 31, 49], flatten: true, geomf: angle,
+              norm: {l2: {scale: 1.0}}, num: 100, start: -0.16, stop: 3.3, weightf: {
+                exp_-1/normnormnorm: {ls: 1.0}}}}]
+650:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_global:
+            kernelf:
+              gaussian:
+                ls: 724.0773439350247
+        nl: 9.5367431640625e-07
+    representation:
+      composed:
+        reps: [{mbtr_2: {acc: 0.001, aindexf: full, broadening: 0.03125, eindexf: full,
+              elems: [8, 13, 31, 49], flatten: true, geomf: 1/distance, norm: {none: {}},
+              num: 100, start: -0.03, stop: 0.62, weightf: {exp_-1/identity^2: {ls: 4.0}}}},
+          {mbtr_3: {acc: 0.001, aindexf: full, broadening: 0.015625, eindexf: full,
+              elems: [8, 13, 31, 49], flatten: true, geomf: angle, norm: {none: {}},
+              num: 100, start: -0.16, stop: 3.3, weightf: {exp_-1/norm+norm+norm: {
+                  ls: 1.4142135623730951}}}}]
+1000:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_global:
+            kernelf:
+              gaussian:
+                ls: 128.0
+        nl: 1.9073486328125e-06
+    representation:
+      composed:
+        reps: [{mbtr_2: {acc: 0.001, aindexf: full, broadening: 0.04419417382415922,
+              eindexf: full, elems: [8, 13, 31, 49], flatten: true, geomf: 1/dot,
+              norm: {none: {}}, num: 100, start: -0.02, stop: 0.37, weightf: {exp_-1/identity^2: {
+                  ls: 128.0}}}}, {mbtr_3: {acc: 0.001, aindexf: full, broadening: 0.015625,
+              eindexf: full, elems: [8, 13, 31, 49], flatten: true, geomf: angle,
+              norm: {l2: {scale: 1.0}}, num: 100, start: -0.16, stop: 3.3, weightf: 1/dotdotdot}}]
+1600:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_global:
+            kernelf:
+              gaussian:
+                ls: 362.03867196751236
+        nl: 9.5367431640625e-07
+    representation:
+      composed:
+        reps: [{mbtr_2: {acc: 0.001, aindexf: full, broadening: 0.005524271728019903,
+              eindexf: full, elems: [8, 13, 31, 49], flatten: true, geomf: 1/dot,
+              norm: {none: {}}, num: 100, start: -0.02, stop: 0.37, weightf: identity^2}},
+          {mbtr_3: {acc: 0.001, aindexf: full, broadening: 0.0078125, eindexf: full,
+              elems: [8, 13, 31, 49], flatten: true, geomf: cos_angle, norm: {none: {}},
+              num: 100, start: -1.05, stop: 1.05, weightf: {exp_-1/norm+norm+norm: {
+                  ls: 1.4142135623730951}}}}]
+
+
+
+

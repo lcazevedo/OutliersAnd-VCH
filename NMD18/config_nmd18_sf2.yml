@@ -1,0 +1,136 @@
+100:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 362.03867196751236
+            norm: false
+        nl: 9.5367431640625e-07
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [8, 13, 31, 49]
+        universal: [{rad_shifted: {cutoff: 4, n: 8}}, {rad_centered: {cutoff: 4, n: 7}}]
+160:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 181.01933598375618
+            norm: false
+        nl: 9.5367431640625e-07
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [8, 13, 31, 49]
+        universal: [{rad_shifted: {cutoff: 5, n: 3}}, {rad_centered: {cutoff: 4, n: 10}}]
+250:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 128.0
+            norm: false
+        nl: 4.315837287515549e-05
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [8, 13, 31, 49]
+        universal: [{rad_shifted: {cutoff: 4, n: 9}}, {rad_centered: {cutoff: 9, n: 3}}]
+400:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 2.8284271247461903
+            norm: false
+        nl: 4.0
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [8, 13, 31, 49]
+        universal: [{rad_shifted: {cutoff: 5, n: 10}}, {rad_centered: {cutoff: 2,
+              n: 6}}]
+650:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 64.0
+            norm: false
+        nl: 5.3947966093944364e-06
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [8, 13, 31, 49]
+        universal: [{rad_shifted: {cutoff: 4, n: 10}}, {rad_centered: {cutoff: 2,
+              n: 3}}]
+1000:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 32.0
+            norm: false
+        nl: 1.9073486328125e-06
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [8, 13, 31, 49]
+        universal: [{rad_shifted: {cutoff: 4, n: 7}}, {rad_centered: {cutoff: 3, n: 5}}]
+1600:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 32.0
+            norm: false
+        nl: 1.9073486328125e-06
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [8, 13, 31, 49]
+        universal: [{rad_shifted: {cutoff: 4, n: 9}}, {rad_centered: {cutoff: 4, n: 8}}]
+

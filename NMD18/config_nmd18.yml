@@ -1,0 +1,6 @@
+path: ""
+fileNMD18: 'nmd18r.xyz'
+num_folds: 5
+num_rounds: 10
+column_y: 'fe'
+

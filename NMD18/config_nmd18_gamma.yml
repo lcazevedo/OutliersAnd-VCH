@@ -1,0 +1,13 @@
+a0:
+  gamma_a: 0
+  gamma_variance: 13657
+a1:
+  gamma_a: 1
+  gamma_variance: 13657
+am:
+  gamma_a: 13
+  gamma_variance: 13657
+ax:
+  gamma_a: 45
+  gamma_variance: 13657
+

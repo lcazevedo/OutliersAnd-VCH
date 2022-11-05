@@ -1,0 +1,32 @@
+path: ""
+fileQM9: 'qm9_compl.pkl'
+test_ref: "Fold5_Round10_Sample1600_am_mbtr2"
+
+Fold5_Round10_Sample1600_am_mbtr2:
+  num_folds: 5
+  num_rounds: 10
+  column_y: 'U0'
+  qtd_sample_qm9: 1600
+  gamma_a: 32
+  gamma_variance: 34
+  model:
+      per: mol
+      regression:
+        krr:
+          centering: false
+          kernel:
+            kernel_global:
+              kernelf:
+                gaussian:
+                  ls: 8.0
+          nl: 1.9073486328125e-06
+      representation:
+        composed:
+          reps: [{mbtr_2: {acc: 0.001, aindexf: full, broadening: 0.025635479875238686, eindexf: full,
+                  elems: [1, 6, 7, 8, 9], flatten: true, geomf: 1/distance, norm: {none: {}},
+                  num: 100, start: -0.05, stop: 1.1, weightf: {exp_-1/identity: {ls: 1.0} } }}, 
+                 ]
+
+
+
+

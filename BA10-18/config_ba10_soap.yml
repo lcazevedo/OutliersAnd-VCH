@@ -1,0 +1,127 @@
+100:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 0.25
+            norm: false
+        nl: 0.0027621358640099515
+    representation:
+      ds_soap:
+        cutoff: 4
+        elems: [12, 13, 22, 23, 26, 27, 28, 29, 41, 47]
+        l_max: 6
+        n_max: 8
+        rbf: gto
+        sigma: 0.125
+250:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 0.5
+            norm: false
+        nl: 0.0009765625
+    representation:
+      ds_soap:
+        cutoff: 4
+        elems: [12, 13, 22, 23, 26, 27, 28, 29, 41, 47]
+        l_max: 4
+        n_max: 7
+        rbf: gto
+        sigma: 0.1767766952966369
+650:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 0.0078125
+            norm: false
+        nl: 0.0013810679320049757
+    representation:
+      ds_soap:
+        cutoff: 4
+        elems: [12, 13, 22, 23, 26, 27, 28, 29, 41, 47]
+        l_max: 4
+        n_max: 8
+        rbf: gto
+        sigma: 0.08838834764831845
+1600:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 0.03125
+            norm: false
+        nl: 0.0013810679320049757
+    representation:
+      ds_soap:
+        cutoff: 5
+        elems: [12, 13, 22, 23, 26, 27, 28, 29, 41, 47]
+        l_max: 8
+        n_max: 5
+        rbf: gto
+        sigma: 0.125
+4000:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 0.005524271728019903
+            norm: false
+        nl: 0.0013810679320049757
+    representation:
+      ds_soap:
+        cutoff: 6
+        elems: [12, 13, 22, 23, 26, 27, 28, 29, 41, 47]
+        l_max: 8
+        n_max: 6
+        rbf: gto
+        sigma: 0.08838834764831845
+10000:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 0.0625
+            norm: false
+        nl: 0.0001220703125
+    representation:
+      ds_soap:
+        cutoff: 8
+        elems: [12, 13, 22, 23, 26, 27, 28, 29, 41, 47]
+        l_max: 8
+        n_max: 6
+        rbf: gto
+        sigma: 0.125
+

@@ -1,0 +1,4 @@
+# BiasVariance
+
+A key aspect to producing accurate and reliable machine learning models for the prediction of properties of quantum chemistry (QC) data is identifying possible data characteristics that may negatively influence model training. In previous work, we identified that flatter molecules , that is, molecules with a low volume of the convex hull (VCH) of atomic positions, may be harmful in model training and a source of prediction outliers. In this paper, we extend this analysis further and develop a biased sampling study to evaluate the influence of VCH on model training. Our study confirms that VCH influences model training and shows the importance of using homogeneous geometric characteristics of molecules when building new data sets or selecting training sets from larger QC data sets.
+

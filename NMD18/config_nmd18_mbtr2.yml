@@ -1,0 +1,150 @@
+250:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_global:
+            kernelf:
+              gaussian:
+                ls: 2896.309375740099
+        nl: 9.5367431640625e-07
+    representation:
+      mbtr_2:
+        acc: 0.001
+        aindexf: full
+        broadening: 0.011048543456039806
+        eindexf: full
+        elems: [8, 13, 31, 49]
+        flatten: true
+        geomf: 1/dot
+        norm:
+          none: {}
+        num: 100
+        start: -0.02
+        stop: 0.37
+        weightf:
+          exp_-1/identity^2:
+            ls: 1024.0
+400:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_global:
+            kernelf:
+              gaussian:
+                ls: 16.0
+        nl: 0.00048828125
+    representation:
+      mbtr_2:
+        acc: 0.001
+        aindexf: full
+        broadening: 0.02209708691207961
+        eindexf: full
+        elems: [8, 13, 31, 49]
+        flatten: true
+        geomf: 1/distance
+        norm:
+          none: {}
+        num: 100
+        start: -0.03
+        stop: 0.62
+        weightf:
+          exp_-1/identity:
+            ls: 1.0
+650:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_global:
+            kernelf:
+              gaussian:
+                ls: 256.0
+        nl: 0.00017263349150062197
+    representation:
+      mbtr_2:
+        acc: 0.001
+        aindexf: full
+        broadening: 0.015625
+        eindexf: full
+        elems: [8, 13, 31, 49]
+        flatten: true
+        geomf: 1/distance
+        norm:
+          none: {}
+        num: 100
+        start: -0.03
+        stop: 0.62
+        weightf:
+          exp_-1/identity:
+            ls: 2.0
+1000:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_global:
+            kernelf:
+              gaussian:
+                ls: 512.0
+        nl: 9.5367431640625e-07
+    representation:
+      mbtr_2:
+        acc: 0.001
+        aindexf: full
+        broadening: 0.03125
+        eindexf: full
+        elems: [8, 13, 31, 49]
+        flatten: true
+        geomf: 1/distance
+        norm:
+          none: {}
+        num: 100
+        start: -0.03
+        stop: 0.62
+        weightf:
+          exp_-1/identity^2:
+            ls: 16.0
+1600:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_global:
+            kernelf:
+              gaussian:
+                ls: 724.0773439350247
+        nl: 9.5367431640625e-07
+    representation:
+      mbtr_2:
+        acc: 0.001
+        aindexf: full
+        broadening: 0.015625
+        eindexf: full
+        elems: [8, 13, 31, 49]
+        flatten: true
+        geomf: 1/dot
+        norm:
+          none: {}
+        num: 100
+        start: -0.02
+        stop: 0.37
+        weightf:
+          exp_-1/identity^2:
+            ls: 512.0
+
+
+
+
+

@@ -1,0 +1,119 @@
+100:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 1024.0
+            norm: false
+        nl: 1.3486991523486091e-06
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [12, 13, 22, 23, 26, 27, 28, 29, 41, 47]
+        universal: [{rad_shifted: {cutoff: 5, n: 10}}, {rad_centered: {cutoff: 3,
+              n: 7}}]
+250:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 11.313708498984761
+            norm: false
+        nl: 0.001953125
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [12, 13, 22, 23, 26, 27, 28, 29, 41, 47]
+        universal: [{rad_shifted: {cutoff: 4, n: 10}}, {rad_centered: {cutoff: 6,
+              n: 2}}]
+650:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 16.0
+            norm: false
+        nl: 6.103515625e-05
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [12, 13, 22, 23, 26, 27, 28, 29, 41, 47]
+        universal: [{rad_shifted: {cutoff: 5, n: 9}}, {rad_centered: {cutoff: 6, n: 5}}]
+1600:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 45.254833995939045
+            norm: false
+        nl: 9.5367431640625e-07
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [12, 13, 22, 23, 26, 27, 28, 29, 41, 47]
+        universal: [{rad_shifted: {cutoff: 5, n: 10}}, {rad_centered: {cutoff: 6,
+              n: 10}}]
+4000:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 16.0
+            norm: false
+        nl: 1.0789593218788873e-05
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [12, 13, 22, 23, 26, 27, 28, 29, 41, 47]
+        universal: [{rad_shifted: {cutoff: 6, n: 9}}, {rad_centered: {cutoff: 5, n: 7}}]
+10000:
+  model:
+    per: cell
+    regression:
+      krr:
+        centering: false
+        kernel:
+          kernel_atomic:
+            kernelf:
+              gaussian:
+                ls: 32.0
+            norm: false
+        nl: 9.5367431640625e-07
+    representation:
+      sf:
+        dim: null
+        elemental: []
+        elems: [12, 13, 22, 23, 26, 27, 28, 29, 41, 47]
+        universal: [{rad_shifted: {cutoff: 7, n: 10}}, {rad_centered: {cutoff: 9,
+              n: 3}}]
+
